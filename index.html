@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMIO AD — DOOH Advertising on Highways &amp; Urban Roads</title>
+  <meta name="description" content="LUMIO AD runs premium digital out-of-home (DOOH) screens on highways, urban roads and high-traffic junctions — putting your brand in front of thousands of commuters, every single day.">
+  <meta name="theme-color" content="#f7f7f4">
+
+  <!-- Social sharing (after deploying, replace the og:image URL with your live Netlify URL) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LUMIO AD — Be Seen. Be Remembered.">
+  <meta property="og:description" content="Premium DOOH advertising on highways, urban roads &amp; high-traffic junctions.">
+  <meta property="og:image" content="assets/og-image.png">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=11">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ══════════════════ HEADER ══════════════════ -->
+  <header class="site-header" id="top">
+    <div class="container nav-row">
+      <a class="brand" href="#top" aria-label="LUMIO AD — home">
+        <img src="assets/lumio-logo.png" alt="LUMIO AD logo" width="139" height="50">
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#network">Network</a></li>
+          <li><a class="nav__link" href="#why-dooh">Why DOOH</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn--wa-nav" href="https://wa.me/918129241487?text=Hi%20LUMIO%20AD%2C%20I%27d%20like%20to%20advertise%20on%20your%20digital%20screens."
+           target="_blank" rel="noopener">
+          <svg class="ico-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          WhatsApp Us
+        </a>
+      </nav>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ══════════════════ HERO ══════════════════ -->
+    <section class="hero" id="hero-story" aria-label="Introduction">
+      <h1 class="visually-hidden hero__desktop-title">LUMIO AD — Your brand, impossible to miss.</h1>
+      <div class="hero__grid">
+        <div class="hero__mobile-copy">
+          <p class="eyebrow">Digital out-of-home advertising</p>
+          <h1>Be seen where the city moves.</h1>
+          <p>Put your brand on large digital screens at busy roads and signal junctions.</p>
+          <a class="btn btn--grad" href="https://wa.me/918129241487?text=Hi%20LUMIO%20AD%2C%20I%27d%20like%20to%20start%20a%20DOOH%20campaign." target="_blank" rel="noopener">Advertise with us <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero__video-wrap">
+          <img class="hero__poster" src="assets/hero-lumio-scroll-poster.jpg" width="978" height="550" alt="">
+          <canvas class="hero__canvas" id="hero-canvas" width="978" height="550" data-frame-count="240" data-frame-path="assets/hero-frames/" role="img" aria-label="Scroll to reveal the LUMIO logo and contact message on the roadside screen"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════ ABOUT ══════════════════ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__head" data-reveal>
+            <p class="eyebrow">About Lumio Ad</p>
+            <h2>Advertising that can’t be skipped, scrolled past, or ignored.</h2>
+            <div class="rule-spark" aria-hidden="true">
+              <span></span>
+              <svg viewBox="0 0 24 24"><path d="M12 0Q13.8 10.2 24 12Q13.8 13.8 12 24Q10.2 13.8 0 12Q10.2 10.2 12 0Z"/></svg>
+              <span></span>
+            </div>
+          </div>
+          <div class="about__body" data-reveal style="--d:.1s">
+            <p>
+              LUMIO AD is a digital out-of-home media company. We own and operate
+              large-format LED screens positioned where attention is guaranteed —
+              busy highways, arterial urban roads, and junctions where traffic
+              naturally slows and eyes naturally wander.
+            </p>
+            <p>
+              While digital ads fight for a half-second of attention, our screens
+              stand tall in the real world — bright by day, brilliant by night,
+              broadcasting your brand to every passing commuter.
+            </p>
+            <ul class="about__points">
+              <li>
+                <svg class="spark spark--gold" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0Q13.8 10.2 24 12Q13.8 13.8 12 24Q10.2 13.8 0 12Q10.2 10.2 12 0Z"/></svg>
+                <div><strong>Prime locations</strong><span>Hand-picked high-traffic corridors and junctions.</span></div>
+              </li>
+              <li>
+                <svg class="spark spark--gold" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0Q13.8 10.2 24 12Q13.8 13.8 12 24Q10.2 13.8 0 12Q10.2 10.2 12 0Z"/></svg>
+                <div><strong>Premium screens</strong><span>Vivid, weather-proof LED built for sunlight and night glow.</span></div>
+              </li>
+              <li>
+                <svg class="spark spark--gold" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0Q13.8 10.2 24 12Q13.8 13.8 12 24Q10.2 13.8 0 12Q10.2 10.2 12 0Z"/></svg>
+                <div><strong>Real audiences</strong><span>Commuters, families, professionals — thousands daily, no bots.</span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Update these figures with your real numbers -->
+        <dl class="stats" data-reveal>
+          <div class="stats__item">
+            <dt>Daily impressions</dt>
+            <dd><span class="count" data-target="500000" data-suffix="+" data-format="in">0</span></dd>
+          </div>
+          <div class="stats__item">
+            <dt>Always-on presence</dt>
+            <dd><span class="count" data-target="24" data-suffix="/7">0</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ══════════════════ SERVICES ══════════════════ -->
+    <section class="section section--tint services" id="services">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">What we do</p>
+          <h2>From highway giants to<br>city-corner screens.</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card" data-reveal>
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="11" rx="1.5"/><path d="M12 15v5M8.5 20h7"/>
+              </svg>
+            </div>
+            <h3>Highway Digital Billboards</h3>
+            <p>Large-format LED along busy highway corridors — unmissable at speed, glowing for kilometres after dark.</p>
+            <a class="card__link" href="https://wa.me/918129241487?text=Hi%20LUMIO%20AD%2C%20I%27m%20interested%20in%20highway%20billboard%20advertising." target="_blank" rel="noopener">Enquire <i>→</i></a>
+          </article>
+
+          <article class="card" data-reveal style="--d:.08s">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="2.5" width="6" height="14" rx="3"/><circle cx="12" cy="6" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="9.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="13" r="1.1" fill="currentColor" stroke="none"/><path d="M12 16.5V21M9 21h6"/>
+              </svg>
+            </div>
+            <h3>Urban Road &amp; Junction Screens</h3>
+            <p>Screens at signals and city arteries where traffic pauses — 60–90 seconds of guaranteed dwell time.</p>
+            <a class="card__link" href="https://wa.me/918129241487?text=Hi%20LUMIO%20AD%2C%20I%27m%20interested%20in%20urban%20road%20screen%20advertising." target="_blank" rel="noopener">Enquire <i>→</i></a>
+          </article>
+
+          <article class="card" data-reveal style="--d:.16s">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M18.5 15.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"/>
+              </svg>
+            </div>
+            <h3>Campaign Design &amp; Scheduling</h3>
+            <p>We design (or adapt) your creative for the big screen, then schedule it smartly — rush hours, weekends, dayparts.</p>
+            <a class="card__link" href="https://wa.me/918129241487?text=Hi%20LUMIO%20AD%2C%20I%20need%20help%20with%20DOOH%20creative%20design." target="_blank" rel="noopener">Enquire <i>→</i></a>
+          </article>
+
+          <article class="card" data-reveal style="--d:.24s">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 20h18"/><path d="M6 20v-7M11.5 20V5M17 20v-10"/>
+              </svg>
+            </div>
+            <h3>Flexible Slots &amp; Reporting</h3>
+            <p>Book by the week or by the season. Get proof-of-play reports so you always know when and where you aired.</p>
+            <a class="card__link" href="https://wa.me/918129241487?text=Hi%20LUMIO%20AD%2C%20please%20share%20slot%20availability%20and%20rates." target="_blank" rel="noopener">Enquire <i>→</i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════ NETWORK ══════════════════ -->
+    <section class="section section--night network" id="network">
+      <div class="container">
+        <div class="section-head section-head--light" data-reveal>
+          <p class="eyebrow eyebrow--gold">Our network</p>
+          <h2>Prime real estate<br>for your message.</h2>
+          <p class="section-lead">
+            Every LUMIO screen is chosen for one thing: guaranteed attention.
+            Here’s the kind of ground your brand will stand on.
+          </p>
+        </div>
+
+        <div class="spots">
+          <article class="spot" data-reveal>
+            <div class="spot__visual">
+              <div class="mini mini--grad">
+                <svg class="mini__spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0Q13.8 10.2 24 12Q13.8 13.8 12 24Q10.2 13.8 0 12Q10.2 10.2 12 0Z"/></svg>
+                <span>Your brand here</span>
+              </div>
+              <span class="spot__road"></span>
+            </div>
+            <div class="spot__body">
+              <h3>Highway Corridors</h3>
+              <p>Long sightlines, high speeds, zero clutter — your ad owns the horizon.</p>
+              <ul class="spot__tags"><li>Large format</li><li>20,000+ vehicles/day</li></ul>
+            </div>
+          </article>
+
+          <article class="spot" data-reveal style="--d:.1s">
+            <div class="spot__visual">
+              <div class="mini mini--ink">
+                <span class="mini__grad-text">Grand opening</span>
+                <em>this weekend</em>
+              </div>
+              <span class="spot__road"></span>
+            </div>
+            <div class="spot__body">
+              <h3>Signal Junctions</h3>
+              <p>Red lights are your best friend — a captive audience every 90 seconds.</p>
+              <ul class="spot__tags"><li>Eye-level dwell</li><li>60–90s exposure</li></ul>
+            </div>
+          </article>
+
+          <article class="spot" data-reveal style="--d:.2s">
+            <div class="spot__visual">
+              <div class="mini mini--gold">
+                <span>New launch</span>
+                <em>festive offer live</em>
+              </div>
+              <span class="spot__road"></span>
+            </div>
+            <div class="spot__body">
+              <h3>Urban Retail Strips</h3>
+              <p>Evening footfall, shoppers in decision mode — perfect for offers and launches.</p>
+              <ul class="spot__tags"><li>Footfall + traffic</li><li>Peak-hour glow</li></ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="network__cta" data-reveal>
+          <p>Want the live location list, photos &amp; rate card?</p>
+          <a class="btn btn--light" href="https://wa.me/918129241487?text=Hi%20LUMIO%20AD%2C%20please%20send%20me%20your%20location%20list%20and%20rate%20card." target="_blank" rel="noopener">
+            Get it on WhatsApp
+            <svg class="ico-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-6-6m6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════ WHY DOOH ══════════════════ -->
+    <section class="section why" id="why-dooh">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Why DOOH</p>
+          <h2>Why brands choose<br>the big screen.</h2>
+        </div>
+
+        <ol class="why__list">
+          <li class="why__row" data-reveal>
+            <span class="why__num">01</span>
+            <div>
+              <h3>Unskippable by design</h3>
+              <p>No ad-blockers, no skip button, no doom-scrolling past. If they’re on the road, they see you.</p>
+            </div>
+          </li>
+          <li class="why__row" data-reveal>
+            <span class="why__num">02</span>
+            <div>
+              <h3>Larger than life</h3>
+              <p>A phone ad is 15 centimetres. Ours are measured in metres — brands feel bigger because they literally are.</p>
+            </div>
+          </li>
+          <li class="why__row" data-reveal>
+            <span class="why__num">03</span>
+            <div>
+              <h3>Bright day, brilliant night</h3>
+              <p>High-luminance LED cuts through afternoon sun and turns into a beacon after dark — 24/7 brand presence.</p>
+            </div>
+          </li>
+          <li class="why__row" data-reveal>
+            <span class="why__num">04</span>
+            <div>
+              <h3>One screen, thousands of eyes</h3>
+              <p>Traffic never stops. A single well-placed screen delivers thousands of genuine impressions daily — at a fraction of print costs.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ══════════════════ PROCESS ══════════════════ -->
+    <section class="section section--tint process" id="process">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">How it works</p>
+          <h2>From brief to broadcast,<br>in four steps.</h2>
+        </div>
+
+        <ol class="steps">
+          <li class="step" data-reveal>
+            <span class="step__dot" aria-hidden="true"></span>
+            <span class="step__num">Step 1</span>
+            <h3>Say hello</h3>
+            <p>Message us on WhatsApp with your brand and goal. That’s it — the ball starts rolling.</p>
+          </li>
+          <li class="step" data-reveal style="--d:.08s">
+            <span class="step__dot" aria-hidden="true"></span>
+            <span class="step__num">Step 2</span>
+            <h3>Pick your spots</h3>
+            <p>We recommend screens and time slots that match your audience, area and budget.</p>
+          </li>
+          <li class="step" data-reveal style="--d:.16s">
+            <span class="step__dot" aria-hidden="true"></span>
+            <span class="step__num">Step 3</span>
+            <h3>We craft the creative</h3>
+            <p>Our team designs or adapts your artwork so it shines on a giant LED canvas.</p>
+          </li>
+          <li class="step" data-reveal style="--d:.24s">
+            <span class="step__dot" aria-hidden="true"></span>
+            <span class="step__num">Step 4</span>
+            <h3>Go live &amp; glow</h3>
+            <p>Your campaign airs on schedule, with proof-of-play reports delivered to your phone.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ══════════════════ CONTACT ══════════════════ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__panel" data-reveal>
+          <div class="contact__info">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s put your brand<br>up in lights.</h2>
+            <p class="contact__lead">
+              One message is all it takes. Tell us your brand and your goal —
+              we’ll reply with locations, availability and a plan.
+            </p>
+            <ul class="contact__rows">
+              <li>
+                <span class="contact__label">WhatsApp / Call</span>
+                <a href="tel:+918129241487" class="contact__value">+91&nbsp;81292&nbsp;41487</a>
+              </li>
+              <li>
+                <span class="contact__label">Coverage</span>
+                <span class="contact__value contact__value--plain">Highways · Urban roads · High-traffic junctions</span>
+              </li>
+              <li>
+                <span class="contact__label">Response</span>
+                <span class="contact__value contact__value--plain">Usually within the hour, every day</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact__wa">
+            <svg class="contact__wa-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            <p class="contact__wa-title">Fastest way to reach us</p>
+            <p class="contact__wa-sub">Tap below — a chat opens instantly with our team.</p>
+            <a class="btn btn--whatsapp" href="https://wa.me/918129241487?text=Hi%20LUMIO%20AD%2C%20I%27d%20like%20to%20advertise%20on%20your%20digital%20screens."
+               target="_blank" rel="noopener">
+              Chat on WhatsApp
+              <svg class="ico-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-6-6m6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <span class="contact__wa-num">+91 81292 41487</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="assets/lumio-mark.png" alt="" width="34" height="45">
+          <span class="footer__word">LUMIO <em>AD</em></span>
+        </div>
+        <div class="rule-spark rule-spark--footer" aria-hidden="true">
+          <span></span>
+          <svg viewBox="0 0 24 24"><path d="M12 0Q13.8 10.2 24 12Q13.8 13.8 12 24Q10.2 13.8 0 12Q10.2 10.2 12 0Z"/></svg>
+          <span></span>
+        </div>
+        <p class="footer__tag">Be seen. Be remembered.</p>
+      </div>
+
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#network">Network</a>
+        <a href="#why-dooh">Why DOOH</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer__base">
+        <p>© <span id="year">2026</span> LUMIO AD · All rights reserved.</p>
+        <p>DOOH · Digital Out-of-Home Advertising</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a class="wa-float" href="https://wa.me/918129241487?text=Hi%20LUMIO%20AD%2C%20I%27d%20like%20to%20advertise%20on%20your%20digital%20screens."
+     target="_blank" rel="noopener" aria-label="Chat with LUMIO AD on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </a>
+
+  <script src="js/main.js?v=7"></script>
+</body>
+</html>
